@@ -342,12 +342,7 @@ public class TabloBot extends TelegramLongPollingBot implements Runnable {
     private List<String> numberEmojis = Arrays.asList("0️⃣", "1️⃣" ,"2️⃣" ,"3️⃣" ,"4️⃣" ,"5️⃣" ,"6️⃣" ,"7️⃣" ,"8️⃣" ,"9️⃣" ,"\uD83D\uDD1F");
 
     private static class ID {
-        private static final String FARDIN = "90960800", FARDIN2 = "672001949",
-                PUBLIC_CHANNELOLD = "-1001451001298", PUBLIC_CHANNEL = "-1001238033098", TABLOBOT_CHANNEL = "@tablobot_channel",
-                PRIVATE_QUEUE = "-1001473394510", PRIVATE_CHANNEL3 = "-1001204613764", PRIVATE_LARGE_BUY = "-1001172690079",
-                PRIVATE_CODETOCODE = "-1001453587444", PRIVATE_SHAREHOLDERS = "-1001301617853", PUBLIC_CHANNEL2 = "-1001375795883",
-                PLAYERS = "-1001348066614", ALI_MORADI_CHANNEL = "-1001500793717", MAFIA_CHANNEL = "-1001754351511", ALI_MORADI = "1705167567",
-                IMAN = "265701449";
+        private static final String FARDIN = "", PUBLIC_CHANNEL = "";
     }
     private static class CHART_TYPE {
         private static final int WITHOUT_MOVING_AVERAGE = 1, MOVING_AVERAGE_ALL = 2, MOVING_AVERAGE3 = 3, MOVING_AVERAGE5 = 4,
@@ -10569,14 +10564,10 @@ public class TabloBot extends TelegramLongPollingBot implements Runnable {
     @Override
     public String getBotUsername() {
         return "tablo1bot";
-//        return "test8542bot"; // TESTING
     }
 
     @Override
     public String getBotToken() {
-        return "1313115577:AAHHgwkRdONQK9q_Y3APz1mB1AEPgmsnxh0";
-//        return "1339815367:AAHbs17rd3S5uE3wQneKP9s9ybkF5UaF7fA"; // TESTING
+        return "";
     }
 }
-
-// https://api.telegram.org/bot1313115577:AAHHgwkRdONQK9q_Y3APz1mB1AEPgmsnxh0/sendMessage?chat_id=-1001500793717&text=aaaa
