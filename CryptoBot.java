@@ -45,8 +45,7 @@ public class CryptoBot extends TelegramLongPollingBot implements Runnable {
     String goldEmoji = "\uD83E\uDD47";
     long UTCDiff = 0L;
     private static class ID {
-        private static final String FARDIN = "90960800", FARDIN2 = "672001949", PRIVATE_CHANNEL3 = "-1001204613764",
-                BITBOTX = "@bitbotx", BITBOTXID = "-1001466378077", DOLLARBOT = "@usdrial", DOLLARBOTID = "-1001288266841";
+        private static final String FARDIN = "";
     }
 
     private int offDays[] = {3,20, 3,21, 3,22, 3,23, 3,24, 4,2, 5,2, 5,3, 5,26, 6,4, 6,5, 7,9, 7,17, 8,7, 8,8};
@@ -702,12 +701,10 @@ public class CryptoBot extends TelegramLongPollingBot implements Runnable {
     @Override
     public String getBotUsername() {
         return "hyperbitbot";
-//        return "test8542bot"; // TESTING
     }
 
     @Override
     public String getBotToken() {
-        return "1794840305:AAERfqQ4F_2qiPaOsf8HIvvBAQMlBuvSJJ0";
-//        return "1339815367:AAHbs17rd3S5uE3wQneKP9s9ybkF5UaF7fA"; // TESTING
+        return "";
     }
 }
